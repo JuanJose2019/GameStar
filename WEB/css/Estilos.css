@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+.jumbotron {
+			background-image: url("../Imagenes/Inicio2.jpg");
+			background-position: left;
+			color: #007BFF ;
+			padding: 50px 12.5px;
+			font-family: sans-serif;
+			text-align: center
+			
+		}
+.jumbotronM {
+			background-color: coral;
+			background-position: left;
+			color: #ffffff;
+			padding: 50px 12.5px;
+			font-family: sans-serif;
+			text-align: center
+			
+		}
+		.container-fluid {
+			padding: 40px 50px
+		}
+		.bg-grey {
+			background-color: #87b4f0;}
+			.panel {
+				border: 1px solid #EDC45B;
+			}
+.bg-puz{
+	background-color: #27D300;
+}
+			.panel:hover {
+				box-shadow: 3px 7px 30px #008000;
+		}
+		.equipo .panel-heading {
+    color: #fff;
+    background-color: #F7780F;
+    padding: 25px;
+    border-bottom: 1px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-footer {
+    background-color: #EDC45B;
+}
+.panel-footer h4 {
+    color: #0C32F5;
+    font-size: 15px;
+}
+@media screen and (min-width: 195px){
+	img {
+		max-width: 100%
+	}
+}
+	
+@media screen and (min-width: 295px) {
+	img {
+		max-width: 115px;
+	}
+}
+@media screen and (min-width: 550px) {
+	img {
+		max-width: 120px;
+	}
+}
+@media screen and (min-width: 760px){
+	img {
+		max-width: 125px;
+	}
+}
+@media screen and (min-width: 980px){
+	img {
+		max-width: 130px;
+	}
+}
+@media screen and (min-width: 1200px){
+	img {
+		max-width: 150px;
+	}
+}
+@media screen and (min-width: 1420px){
+	img {
+		max-width: 175px;
+	}
+}
+
+.menu {
+    background-color: #1491E0;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+	
+}
+footer .glyphicon {
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #DAA520;
+}
+.juego1M{
+	padding-top: 40px;
+}
+.imge{
+	height: 175px;
+
+}
+.imgec{
+	height: 175px;
+
+}
+.bg-Game{
+		background-color: #25B8C2;}
+		.panel {
+		border: 1px solid #EDC45B;
+}

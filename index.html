@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link href="css/bootstrap-4.2.1.css" rel="stylesheet">
+	<link rel="stylesheet" href="Estilos.css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+<title>Redireccionando</title>
+</head>
+	<script>
+		function isTouchDevice() {
+    		return 'ontouchstart' in document.documentElement;
+}
+		if (isTouchDevice()) {
+   			window.location="WEB/GameStarMob.html"; // En Teléfono
+}
+		else {
+			window.location="WEB/GameStar.html"; // En Computadora
+}
+	</script>
+
+</html>
