@@ -101,6 +101,9 @@ footer .glyphicon {
 	margin-bottom: 10px;
 	color: #DAA520;
 }
+.juego1M{
+	padding-top: 40px;
+}
 .imge{
 	height: 175px;
 
@@ -113,10 +116,4 @@ footer .glyphicon {
 		background-color: #25B8C2;}
 		.panel {
 		border: 1px solid #EDC45B;
-}
-.imgm{
-	height: 100px;
-}
-.bg-ref{
-	background-color: #89C74A;
 }
