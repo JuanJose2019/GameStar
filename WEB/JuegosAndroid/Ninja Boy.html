@@ -52,11 +52,11 @@
 		<h1>GameStar Mobile</h1>
 		<p>Recopilando Juegos Online para Usted</p>
 		</div>
-	<br><div class="bg-Game" align="center"><iframe src="https://wanted5games.com/games/html5/ninjaboy-en-s-iga-cloud/index.html?pub=10" name="cloudgames-com" allowfullscreen="" frameborder="0" scrolling="no"></iframe>
+	<br><div class="bg-Game" align="center"><br><iframe src="https://wanted5games.com/games/html5/ninjaboy-en-s-iga-cloud/index.html?pub=10" name="cloudgames-com" allowfullscreen="" frameborder="0" scrolling="no"></iframe>
 	</div>
     <!--Juegos Android-->
 	<br><section id="PlataformasM" class="container-fluid bg-grey">
-	<center><p>Juegos para Android</p></center>
+	<center><p>Juegos</p></center>
 	<div class="row" align="center">
 		<div class="col-sm-2">
 			<a title="Sicario Kid" href="Sicario Kid.html"><img src="../Imagenes/SicarioKid 270x196.png" alt="Ultimate" width="150%" height="65%"></a>
@@ -73,6 +73,15 @@
 		</div>
 	</section>
 	<script>
+				function isTouchDevice() {
+    		return 'ontouchstart' in document.documentElement;
+}
+		if (isTouchDevice()) {
+   			window.document="" // En Teléfono
+}
+		else {
+			window.location="../../index.html"; // En Computadora
+}
 	</script>
 </body>
 </html>
