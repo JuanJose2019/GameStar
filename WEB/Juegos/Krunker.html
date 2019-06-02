@@ -52,9 +52,8 @@
 		<p>Recopilando Juegos Online para Usted</p>
 	</div>
 	<div class="bg-Game" align="center">
-	<br><iframe src="https://krunker.io/" frameborder="0" scrolling="yes" width="1000" height="600" mozallowfullscreen="true" allowfullscreen="true">
-		<img src="TemplateData/fullscreen.png" width="30" height="30" alt="Fullscreen" title="Fullscreen" onclick="gameInstance.SetFullscreen(1)">
-	</iframe></div>
+	<br><iframe id="gameif" src="https://krunker.io/" frameborder="0" scrolling="yes" width="1000" height="600"></iframe>
+    <br><img title="Pantalla Completa" src="../Imagenes/Ico.png" id="video-fullscreen" alt="FullScreen" width="40px"></div>
 	
 	<br><section id="Acción" class="container-fluid bg-grey">
 		<center><p>Acción</p></center>
@@ -122,6 +121,7 @@
    			window.location="../GameStarMob.html"; // En Teléfono
 }
 	</script>
+	<script src="../js/base.js"></script>
 	
 </body>
 </html>
